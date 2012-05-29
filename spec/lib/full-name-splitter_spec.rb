@@ -7,6 +7,7 @@ require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
     EXAMPLES = {
       "John Smith"                    => [nil, "John",           "Smith"               ],
+      "Ben Smith"                     => [nil, "Ben",            "Smith"               ],
       "Kevin J. O'Connor"             => [nil, "Kevin J.",       "O'Connor"            ],
       "Gabriel Van Helsing"           => [nil, "Gabriel",        "Van Helsing"         ],
       "Pierre de Montesquiou"         => [nil, "Pierre",         "de Montesquiou"      ],
